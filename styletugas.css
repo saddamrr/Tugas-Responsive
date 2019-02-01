@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+}
+[class*="col-"]{
+    padding: 15px; float: left; width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.text-grey{ color: grey; }
+
+.text-green{ color: green; }
+
+.text-blue{ color: blue; }
+
+.text-navy{ color: navy; }
+
+.text-red{ color: red; }
+
+.text-black{ color: black; }
+
+.menu{
+    width: 100%;
+    border-bottom: 2px solid black;
+    background: transparent;
+    position: fixed;
+}
+
+.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    float: right;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 18px 20px; 
+    font-size: 15px;
+    display: block;
+}
+
+.menu li a:hover{
+    background: white transparent;
+    border-top: 2px solid black;
+}
+
+.header{
+    background: url("img/bg1.jpg")no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.header h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 100px;
+}
+
+.header h3{
+    color: black;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 30px;
+}
+
+.image{
+    width: 400px;
+    height: auto;
+    border-radius: 30%;
+    margin: 0 auto;
+    border: 20px double black;
+}
+
+.home{
+    width: 100%;
+    height: auto;
+    background: url("img/bg2.png")no-repeat center;
+    background-size: cover;
+}
+
+.home .kiri{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.home .kiri h2{
+    float: right;
+    font-family: 'calibri';
+    font-size: 50px;
+}
+
+.home .kiri p{
+    float: right;
+    font-family: 'calibri';
+    font-size: 25px;
+    color: white;
+}
+
+.home .kanan{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+.post{
+    width: 100%;
+    height: auto;
+    padding: 0 auto;
+    float: left;
+    background: url("img/bg3.jpg")no-repeat center;
+    background-size: cover;
+}
+
+.post .left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.post .left h2{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 20;
+    border-right: 10px solid blue;
+    padding-right: 10px;
+}
+
+.post .left h3{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'calibri';
+    font-weight: 20;
+    padding-right: 10px;
+}
+
+.post .left p{
+    font-family: 'calbri';
+    font-size: 30px;
+    text-align: right;
+}
+
+.post .right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin-top: -150px;
+}
+
+.post .right img{
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 200px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.post .left img{
+    width: 400px;
+    height: auto;
+    margin-left: 250px;
+    margin-top: 100px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.post .right p{
+    font-family: 'calbri';
+    font-size: 30px;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.budaya{
+    width: 100%;
+    background: url("img/bg-budaya.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.budaya h2{
+    text-align: center;
+    color: #fff;
+    font-family: 'calibri';
+    font-size: 30px;
+}
+
+.budaya img{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.budaya p{
+    color: #fff;
+    font-family: 'calibri';
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.wisata{
+    width: 100%;
+    height: auto;
+}
+
+.wisata .atas{
+    width: 100%;
+    background: url("img/bg-wisata.jpg")no-repeat center;
+    background-size: cover;
+}
+
+.wisata .atas h2{
+    font-family: 'calibri';
+    font-size: 40px;
+}
+
+.wisata .atas h4{
+    font-family: 'calibri';
+    font-size: 20px;
+    color: black;
+}
+
+.wisata p{
+    text-align: center;
+    font-family: 'calibri';
+}
+
+.wisata h3{
+    font-family: 'calibri';
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.wisata img{
+    width: 600px;
+    height: auto;
+    margin-left: 300px;
+}
